@@ -1,0 +1,15 @@
+# default config.yml
+# How many times out of 100 the golem should spawn
+spawnChance: 5
+# Damage out of 20, 20 is insta kill
+damage: 6
+# Whether or not a puddle should show up when a golem dies
+puddle: true
+# Whether or not there should be a snow path following the golems
+snowPath: true
+# Whether or not the golem should spawn in cold biomes
+snowBiome: false
+# Whether or not the golem should spawn on snow or a snow block
+snowOnly: false
+# Fire rate, 4 being default, 1 being very slow, 0 being not at all. DO NOT GO PAST 4 OR UNDER 0
+fireRate: 4
