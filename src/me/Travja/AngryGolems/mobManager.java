@@ -252,7 +252,7 @@ public class mobManager implements Listener {
                     Bukkit.getScheduler().scheduleSyncDelayedTask(plugin, () -> {
                         if (bl.getBlock().getType() == Material.WATER)
                             e.getLocation().getBlock().setType(Material.AIR);
-                        plugin.water.remove(bl.getWorld() + "," + bl.getX() + "," + bl.getY() + "," + bl.getZ());
+                        plugin.water.remove(bl.getWorld().getName() + "," + bl.getX() + "," + bl.getY() + "," + bl.getZ());
                         plugin.config.set("water", plugin.water);
                         plugin.saveConfig();
                         w.remove(bl);
